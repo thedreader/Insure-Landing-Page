@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 375px) {
+
+  .navbarInside{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
+    font-size: 5px;
+    font-weight: 300;
+    padding-bottom: 300px;
+    background-image: url(images/bg-pattern-mobile-nav.svg);
+    background-position: bottom;
+  }
+  .navbarInside h2 {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .navbarInside .firstOption {
+    padding-top: 42px;
+  }
+  .navbarInside button {
+    margin-top: 19px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: hsl(270, 9%, 17%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 98%);
+    border-width: thin;
+    padding: 5px 80px;
+  }
+  .menu {
+    margin: 20px -7% auto 0;
+    position: relative;
+    right: -23%;
+  }
+  .menuClose {
+    margin: 20px -7% auto 0;
+    position: relative;
+    right: -23%;
+  }
+
+  .introImg {
+    margin-top: 30px;
+  }
+
+  /* .containerForImg {
+    padding-bottom: 180px;
+    background-image: url(images/bg-pattern-intro-right-mobile.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  } */
+  .container1 {
+    font-family: 'DM Serif Display', serif;
+    margin-top: -20px;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(270, 9%, 17%);
+    padding-bottom: 80px;
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .container1 h1 {
+    font-size: 2.7em;
+    padding: 100px 0 20px 0;
+  }
+  .container1 p {
+    font-size: 13px;
+    width: 70%;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    left: 14%;
+  }
+  .container1 button {
+    font-family: 'Karla', sans-serif;
+    margin-top: 19px;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: hsl(270, 9%, 17%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 98%);
+    border-width: thin;
+    padding: 5px 20px;
+  }
+}
+
+.companyLogo {
+  position: relative;
+  left: -30%;
+  margin: 25px auto 5px;
+}
